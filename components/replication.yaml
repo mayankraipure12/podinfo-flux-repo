@@ -1,0 +1,25 @@
+apiVersion: delivery.ocm.software/v1alpha1
+kind: ComponentSubscription
+metadata:
+  name: component-transfer
+  namespace: ocm-system
+spec:
+  source:
+    secretRef:
+      name: source-access-secret
+    url: https://ghcr.io/mayankraipure12
+  destination:
+    secretRef:
+      name: destination-access-secret
+    url: https://ghcr.io/mayankraipure11
+  component: "https://github.com/mayankraipure12/podinfo-flux-repo"
+  interval: 10m0s
+  semver: "~v1.3.0"
+  verify:
+    - signature:
+        name: signature-name
+        key:
+          name: verify-key-name
+status:
+  latestVersion: "v1.3.0"
+  replicatedVersion: "v1.3.0"
