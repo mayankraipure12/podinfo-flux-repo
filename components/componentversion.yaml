@@ -16,4 +16,4 @@ spec:
     - name: alice_1.7
       publicKey:
         secretRef:
-          name: alice-publickey
+          name: alice-publickey-1.7
