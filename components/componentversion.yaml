@@ -7,13 +7,13 @@ spec:
   interval: 10m0s
   component: github.com/acme/podinfo
   version:
-    semver: v1.3.0
+    semver: v1.4.0
   repository:
     url: ghcr.io/mayankraipure12
     secretRef:
       name: creds
   verify:
-  - name: alice
-    publicKey:
-      secretRef:
-        name: alice-publickey
+    - name: alice
+      publicKey:
+        secretRef:
+          name: alice-publickey
