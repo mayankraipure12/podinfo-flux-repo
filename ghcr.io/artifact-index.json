@@ -1,1 +1,1 @@
-{"schemaVersion":1,"artifacts":[{"repository":"component-descriptors/github.com/acme/podinfo","tag":"v1.0.0","digest":"sha256:2eb607cbd134fe12c2f0c54c52f936e82ba54cca351bca4baa6c7d7c452d7ef9"}]}
+{"schemaVersion":1,"artifacts":[{"repository":"component-descriptors/github.com/acme/podinfo","tag":"v1.0.0","digest":"sha256:2eb607cbd134fe12c2f0c54c52f936e82ba54cca351bca4baa6c7d7c452d7ef9"},{"repository":"component-descriptors/github.com/acme/podinfo","tag":"v1.1.0","digest":"sha256:5771edda60a7deabc25b00a64858054e05543c09074bd995e123bcf5764f6287"}]}
