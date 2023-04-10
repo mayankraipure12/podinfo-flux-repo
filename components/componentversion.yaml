@@ -7,9 +7,9 @@ spec:
   interval: 10m0s
   component: github.com/acme/podinfo
   version:
-    semver: =v1.1.0
+    semver: =v1.5.0
   repository:
-    url: ghcr.io/mayankraipure12
+    url: podinfo-component.int.repositories.cloud.sap
     secretRef:
       name: creds
   verify:
