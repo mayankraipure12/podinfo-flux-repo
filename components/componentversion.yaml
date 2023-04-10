@@ -12,8 +12,8 @@ spec:
     url: podinfo-component.int.repositories.cloud.sap
     secretRef:
       name: creds
-  verify:
-    - name: alice
-      publicKey:
-        secretRef:
-          name: alice-publickey
+  # verify:
+  #   - name: alice
+  #     publicKey:
+  #       secretRef:
+  #         name: alice-publickey
