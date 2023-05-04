@@ -8,6 +8,7 @@ spec:
   component: github.com/acme/podinfo
   version:
     semver: v1.5.0
+    allowRollback: true
   repository:
     url: podinfo-component.int.repositories.cloud.sap
     secretRef:
